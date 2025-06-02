@@ -2,15 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: transparent; /* Bakgrunnen styres via Tailwind-klasser i layout.js */
+  color: white;
 }
 
-.animate-fadeIn {
-  animation-name: fadeIn;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
+/* Hvis du ønsker kan du legge til en subtil støy-tekstur som overlay med en bakgrunnsfil */
+/* Eks (krever en støy-bilde fil i public folderen): */
+
+/*
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: url('/noise.png');
+  opacity: 0.05;
+  z-index: 0;
 }
+*/

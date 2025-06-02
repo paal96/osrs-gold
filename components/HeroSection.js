@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="bg-[url('/banner.png')] bg-cover bg-center text-white py-32 px-4 text-center min-h-screen flex flex-col justify-center items-center">
+    <section className="bg-[url('/banner.png')] bg-cover bg-center text-white min-h-screen flex flex-col justify-center items-center">
       <h1 className="text-5xl font-extrabold mb-4">Buy Cheap OSRS Gold</h1>
       <p className="text-xl mb-6">Fast delivery. Secure transactions. 24/7 support. Trusted by thousands.</p>
       <div className="space-x-4">

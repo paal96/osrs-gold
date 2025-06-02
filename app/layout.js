@@ -1,24 +1,11 @@
-import '../styles/globals.css';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import TopBar from '../components/TopBar';
-
-export const metadata = {
-  title: 'OSRS Gold Shop',
-  description: 'Buy cheap and fast OSRS gold with secure transactions and 24/7 support.',
-};
-
-export default function RootLayout({ children }) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body className="bg-gray-900 text-white min-h-screen flex flex-col">
-        <TopBar />
-        <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-6">
-          {children}
-        </main>
-        <Footer />
-      </body>
-    </html>
+    <div className="flex justify-center py-10 bg-gray-900">
+      <img
+        src="/ChatGPT Image 2. juni 2025, 04_26_52.png"
+        alt="Banner"
+        className="max-w-full h-auto rounded-lg shadow-lg"
+      />
+    </div>
   );
 }
